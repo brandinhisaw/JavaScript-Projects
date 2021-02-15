@@ -1,0 +1,20 @@
+input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #4bbb00;
+}
+
+input[type=submit] {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #4bbb00;
+}
+
+input:hover, input:focus {
+    background-color: chartreuse;
+}
+
+label {
+    font-family: 'Courier New', Courier, monospace;
+}
