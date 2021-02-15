@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Tic Tac Toe - Play Now!</title>
+        <meta charset="UTF-8">
+        <meta name='viewport' content='width=device-width, intial-scale=1.0'>
+        <link rel="stylesheet" href="./css/game.css">
+        <script src="./js/tictactoe.js" defer></script>
+    </head>
+
+    <body id='body'>
+
+        <h1>-- Tic Tac Toe --</h1>
+
+        <p id="Inline"></p>
+
+        <script>
+            var inlineString = "This string was created by an inline JS script.";
+            writeInline = (string) => document.getElementById("Inline").innerHTML = string;
+            writeInline(inlineString);
+        </script>
+
+        <!-- this container is needed to overlay the canvas over the table -->
+        <div class='center-container'>
+            <canvas id='win-lines' width='608' height='608'></canvas>
+            <table>
+                <tr>
+                    <td id='0' onclick='placeXOrO("0")'></td>
+                    <td id='1' onclick='placeXOrO("1")'></td>
+                    <td id='2' onclick='placeXOrO("2")'></td>
+                </tr>
+                <tr>
+                    <td id='3' onclick='placeXOrO("3")'></td>
+                    <td id='4' onclick='placeXOrO("4")'></td>
+                    <td id='5' onclick='placeXOrO("5")'></td>
+                </tr>
+                <tr>
+                    <td id='6' onclick='placeXOrO("6")'></td>
+                    <td id='7' onclick='placeXOrO("7")'></td>
+                    <td id='8' onclick='placeXOrO("8")'></td>
+                </tr>
+            </table>
+        </div>
+
+    </body>
+
+</html>
