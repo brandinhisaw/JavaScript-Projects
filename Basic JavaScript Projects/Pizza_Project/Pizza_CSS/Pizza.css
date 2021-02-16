@@ -1,0 +1,77 @@
+/* GENERAL STYLE */
+body {
+    background-color: firebrick;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: yellow;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: yellow;
+}
+
+div {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+
+/* ID STYLE */
+#frmMenu {
+    width: 600px;
+    height: 200px;
+}
+
+#menuBG {
+    width: 600px;
+    height: 470px;
+    margin: 10px auto;
+}
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    float: left;
+}
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float: right;
+}
+
+/* CLASS STYLE */
+.left {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.middle {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.right {
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+#cart {
+    top: 0;
+    margin: 0px auto;
+    width: 400px;
+    height: 200px;
+}
+
+#btnOrder {
+    margin: 10px 0px 0px 100px;
+    width: 100px;
+    height: 40px;
+}
