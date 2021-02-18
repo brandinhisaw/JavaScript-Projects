@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Basic HTML Page</title>
+        <meta charset="utf-8">
+        <!-- gains access to the jquery API from Google to utilize jQuery below -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+
+
+
+    <body>
+
+        <script>
+            // waits for DOM to be loaded then executes inner function
+            $(document).ready(function() {
+                // utilizing HTML within jQuery to add to page
+                $("html").append(
+                    "<body>\
+                        <div id='container'>\
+                            <div id='inner'>\
+                                <h1>Basic jQuery</h1>\
+                                <p id='1'>Paragraph 1</p>\
+                                <p id='2'>Paragraph 2</p>\
+                                <p id='3'>Paragraph 3</p>\
+                            </div>\
+                        </div>\
+                    </body>"              
+                );
+                // css within jQueery example
+                $("#2").css({"color":"red"}); 
+                // on click function example
+                $("#3").click(function() {
+                    $('h1').hide();
+                });
+            });
+    
+        </script>
+
+    </body>
+
+</html>
